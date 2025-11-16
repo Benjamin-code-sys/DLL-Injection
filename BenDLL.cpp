@@ -1,4 +1,12 @@
+/*
 
+ Benjamin Moss Custom code template
+ Service binary - payload encryption with AES
+ 
+ Author: Benjamin Moss Kipsoi 
+ Email: mossbenjamin254@gmail.com
+
+*/
 #include <windows.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -85,3 +93,4 @@ BOOL WINAPI DllMain( HINSTANCE hinstDLL, DWORD reasonForCall, LPVOID lpReserved 
 			}
 	return TRUE;
 }
+
